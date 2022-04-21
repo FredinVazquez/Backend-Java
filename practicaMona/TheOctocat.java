@@ -52,4 +52,21 @@ public class TheOctocat {
     public String getSuit() {return suit;}
     public int getAge() {return age;}
     public String getSuitColor() {return suitColor;}
+
+    // Actividades que realiza el octocat:
+    public void presentacion(){
+        System.out.println("\n\t"+getName()+"\nAcción que realiza "+getName()+":");
+        accionRealizar();
+        System.out.println("\n> Su pasatiempo:");
+        hacerPasatiempo();
+        System.out.println("\n> Hora de jugar!:");
+        jugar();
+        System.out.println("\n> Hora de comer!:");
+        comer();
+        System.out.println("\n> Momento de presumir su habilidad:");
+        demostrarHabilidad();
+        System.out.println("\n> A dormir ZzZzZ:");
+        descansar();
+        System.out.printf("\n");
+    }
 }
