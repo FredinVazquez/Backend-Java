@@ -23,6 +23,11 @@ public class Gobble_o_tron extends TheOctocat{
     }
 
     @Override
+    public void comer() {
+        super.comer();
+    }
+
+    @Override
     public void jugar() {
         System.out.printf(super.getName() + " está jugando con " +super.getObjects()+" y con los animales de la zona.");
     }
